@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Your Smoothie</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <h1>Order Your Smoothie</h1>
+    <form id="smoothie-form"> <!-- Smoothie order form -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required> <!-- Input for customer's name -->
+        <br>
+        <label for="size">Size:</label>
+        <select id="size" name="size" required> <!-- Dropdown for smoothie size -->
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <br>
+        <label for="base">Base:</label>
+        <select id="base" name="base" required> <!-- Dropdown for smoothie base -->
+            <option value="water">Water</option>
+            <option value="milk">Milk</option>
+            <option value="yogurt">Yogurt</option>
+            <option value="juice">Juice</option>
+        </select>
+        <br>
+        <label for="fruits">Fruits:</label>
+        <select id="fruits" name="fruits" multiple required> <!-- Multi-select for fruits -->
+            <option value="banana">Banana</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="mango">Mango</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="apple">Apple</option>
+        </select>
+        <br>
+        <label for="extras">Extras:</label>
+        <select id="extras" name="extras" multiple> <!-- Multi-select for extras -->
+            <option value="chia seeds">Chia Seeds</option>
+            <option value="protein powder">Protein Powder</option>
+            <option value="honey">Honey</option>
+            <option value="spinach">Spinach</option>
+        </select>
+        <br>
+        <button type="button" id="order-button">Order</button> <!-- Order button -->
+        <button type="reset">Reset</button> <!-- Reset button -->
+    </form>
+    <div id="order-summary">
+        <img id="smoothie-image" src="./smoothie.jpg" alt="Smoothie Image"> <!-- Image for smoothie -->
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

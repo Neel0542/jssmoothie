@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire body */
+    background-color: #f4f4f4; /* Set the background color for the body */
+    margin: 0; /* Remove the default margin */
+    padding: 20px; /* Add padding to the body */
+    text-align: center; /* Center-align the text */
+}
+
+h1 {
+    color: #333; /* Set the color of the h1 heading */
+}
+
+form {
+    background: white; /* Set the background color of the form */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 5px; /* Round the corners of the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow to the form */
+    display: inline-block; /* Display the form as an inline block */
+    text-align: left; /* Left-align the text inside the form */
+}
+
+label {
+    display: block; /* Display the label as a block element */
+    margin-top: 10px; /* Add margin to the top of the label */
+}
+
+input, select, button {
+    padding: 10px; /* Add padding inside the input, select, and button elements */
+    margin: 10px 0; /* Add margin above and below the input, select, and button elements */
+    border: 1px solid #ccc; /* Add a border around the input, select, and button elements */
+    border-radius: 5px; /* Round the corners of the input, select, and button elements */
+    width: 100%; /* Set the width of the input, select, and button elements to 100% */
+}
+
+button {
+    background-color: #5cb85c; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Change the background color of the button when hovering */
+}
+
+#order-summary {
+    margin-top: 20px; /* Add margin to the top of the order summary */
+    text-align: left; /* Left-align the text inside the order summary */
+}
+
+#order-summary div {
+    background: white; /* Set the background color of the order summary div */
+    padding: 20px; /* Add padding inside the order summary div */
+    border-radius: 5px; /* Round the corners of the order summary div */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow to the order summary div */
+    display: inline-block; /* Display the order summary div as an inline block */
+}
+
+#smoothie-image {
+    margin-top: 10px; /* Add margin to the top of the smoothie image */
+    max-width: 200px; /* Set the maximum width of the smoothie image */
+    border-radius: 10px; /* Round the corners of the smoothie image */
+}
